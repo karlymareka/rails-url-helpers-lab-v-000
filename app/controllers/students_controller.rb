@@ -23,8 +23,6 @@ class StudentsController < ApplicationController
     redirect_to "/students/#{@student.id}"
   end
 
-
-=======
   
   def activate
     @student = Student.find(params[:id])
